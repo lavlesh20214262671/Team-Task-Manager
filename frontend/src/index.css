@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --bg: #f5f6fb;
+  --card: #ffffff;
+  --text: #1c1e2b;
+  --text-muted: #6e7391;
+  --primary: #5b6cff;
+  --primary-light: #eef1ff;
+  --primary-dark: #3e4ad1;
+  --success: #20c997;
+  --success-light: #e7fbf4;
+  --warning: #f59e0b;
+  --warning-light: #fff8e7;
+  --danger: #ef4444;
+  --danger-light: #fef2f2;
+  --info: #26c0ff;
+  --info-light: #e8f8ff;
+  --border: #e3e6f1;
+  --shadow-sm: 0 1px 3px rgba(28,30,43,0.06);
+  --shadow: 0 4px 16px rgba(28,30,43,0.08), 0 2px 4px rgba(28,30,43,0.04);
+  --shadow-lg: 0 20px 40px rgba(28,30,43,0.12);
+  --radius-sm: 8px;
+  --radius: 14px;
+  --radius-lg: 20px;
+  --sidebar-w: 240px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  min-height: 100vh;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+a { color: inherit; text-decoration: none; }
+button { font-family: inherit; cursor: pointer; }
+input, select, textarea { font-family: inherit; }
