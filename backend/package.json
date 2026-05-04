@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-<<<<<<< HEAD
   "test": "echo \"Error: no test specified\" && exit 1",
   "dev": "ts-node-dev --respawn src/server.ts",
   "build": "tsc",
@@ -13,7 +12,6 @@
   "prisma:generate": "prisma generate",
   "prisma:migrate": "prisma migrate deploy"
 },
-=======
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "ts-node-dev --respawn src/server.ts",
     "build": "tsc",
@@ -22,7 +20,6 @@
     "prisma:generate": "prisma generate",
     "prisma:migrate": "prisma migrate deploy"
   },
->>>>>>> 5e320bf (remove node_modules from git)
   "keywords": [],
   "author": "",
   "license": "ISC",
