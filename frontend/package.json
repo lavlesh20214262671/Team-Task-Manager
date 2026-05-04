@@ -5,7 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+<<<<<<< HEAD
     "build": "vite build",
+=======
+    "build": " vite build",
+>>>>>>> 5e320bf (remove node_modules from git)
     "preview": "vite preview"
   },
   "dependencies": {
